@@ -21,3 +21,9 @@ Explanation: use **layer order with a queue** to reach the deepest layer of a tr
 Explanation: build a graph keeps the distance of every two nodes. Each step, find the want-most unvisited node and update the graph.
 
 [Medium][743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+
+
+## shortest path with 8 directions: A* Algorithm
+An A* search is like a breadth-first seach, except that in each iteration, instead of expanding the cell with the shortest path from the origin, we expand the cell with the **lowest overall estimated path length** -- this is the distance so far, plus a heuristic (rule-of-thumb) estimate of the remaining distance. As long as the heuristic is consistent, an A* graph-search will find the shortest path. This can be somewhat more efficient than breadth-first-search as we typically **don't have to visit nearly as many cells**. Intuitively, an A* search has an approximate sense of direction, and uses this sense to guide it towards the target.
+
+[Medium][1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
