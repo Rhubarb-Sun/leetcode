@@ -24,6 +24,12 @@ Explanation: build a graph keeps the distance of every two nodes. Each step, fin
 
 
 ## shortest path with 8 directions: A* Algorithm
-An A* search is like a breadth-first seach, except that in each iteration, instead of expanding the cell with the shortest path from the origin, we expand the cell with the **lowest overall estimated path length** -- this is the distance so far, plus a heuristic (rule-of-thumb) estimate of the remaining distance. As long as the heuristic is consistent, an A* graph-search will find the shortest path. This can be somewhat more efficient than breadth-first-search as we typically **don't have to visit nearly as many cells**. Intuitively, an A* search has an approximate sense of direction, and uses this sense to guide it towards the target.
+Explanation: An A* search is like a breadth-first seach, except that in each iteration, instead of expanding the cell with the shortest path from the origin, we expand the cell with the **lowest overall estimated path length** -- this is the distance so far, plus a heuristic (rule-of-thumb) estimate of the remaining distance. As long as the heuristic is consistent, an A* graph-search will find the shortest path. This can be somewhat more efficient than breadth-first-search as we typically **don't have to visit nearly as many cells**. Intuitively, an A* search has an approximate sense of direction, and uses this sense to guide it towards the target.
 
 [Medium][1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+
+
+## find in a tree: dfs, recursion, preorder
+Explanation: if you would like to find something in a tree, a good common solution is to search it recursively while paying attention to the situation that you may encounter the *null* which should be considered as the end of a round of search.
+
+[Medium][1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
