@@ -33,3 +33,8 @@ Explanation: An A* search is like a breadth-first seach, except that in each ite
 Explanation: if you would like to find something in a tree, a good common solution is to search it recursively while paying attention to the situation that you may encounter the *null* which should be considered as the end of a round of search.
 
 [Medium][1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)
+
+
+## undirected graph: dfs
+Explanation: memorize all the neighbors of each node, transverse the graph step by step without going back. The depth of a node is the lowest depth it can travel to. The nodes share the depth shall be in a circle.
+[Medium][1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
