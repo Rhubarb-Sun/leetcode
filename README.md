@@ -39,3 +39,11 @@ Explanation: if you would like to find something in a tree, a good common soluti
 Explanation: memorize all the neighbors of each node, transverse the graph step by step without going back. The depth of a node is the lowest depth it can travel to. The nodes share the depth shall be in a circle.
 
 [Hard][1192. Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)
+
+
+## largest ascending path: bfs, dp, memo
+Explanation: 
+It's easy to figure out that there are some repeated enqueuing in BFS method, so we can use memo to record all the searched nodes. 
+Or we can use DP and reorder the node by descending order.
+
+[Hard][329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
