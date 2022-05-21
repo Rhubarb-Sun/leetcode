@@ -47,3 +47,11 @@ It's easy to figure out that there are some repeated enqueuing in BFS method, so
 Or we can use DP and reorder the node by descending order.
 
 [Hard][329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+
+
+## carpet covers tiles: sliding window, greedy algorithm, preSum
+Explanation: first we order the array by left boundary, then we find out the local optimization is when the left edge of a carpet is aligned with each left side of the tile, this is the idea of a greedy algorithm. So we can use a sliding window and pre-sum to speed up the processing of matching the global maximum.
+
+[Medium][2271. Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)
+
+
