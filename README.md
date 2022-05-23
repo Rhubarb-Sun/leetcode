@@ -10,6 +10,8 @@ transfer equation: `dp[i] = func(dp[i - 1] & arr[i], arr[i])`
 
 [Hard][2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)
 
+[Medium][474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
+(When two factors influence each other, we could think of a 2D array for DP, so that each factor corresponds to every possible situations of the other factor.)
 
 ## Deepest of a tree: tree, layer order, queue
 Explanation: use **layer order with a queue** to reach the deepest layer of a tree.
