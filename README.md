@@ -6,9 +6,9 @@ Explanation: When it comes to the processing of subarray in a array, we can use 
 
 transfer equation: `dp[i] = func(dp[i - 1] & arr[i], arr[i])`
 
-[Easy][53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+[E][53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-[Hard][2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)
+[H][2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/)
 
 [Medium][474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 (When two factors influence each other, we could think of a 2D array for DP, so that each factor corresponds to every possible situations of the other factor.)
@@ -54,6 +54,11 @@ Or we can use DP and reorder the node by descending order.
 ## carpet covers tiles: sliding window, greedy algorithm, preSum
 Explanation: first we order the array by left boundary, then we find out the local optimization is when the left edge of a carpet is aligned with each left side of the tile, this is the idea of a greedy algorithm. So we can use a sliding window and pre-sum to speed up the processing of matching the global maximum.
 
-[Medium][2271. Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)
+[M+][2271. Maximum White Tiles Covered by a Carpet](https://leetcode.com/problems/maximum-white-tiles-covered-by-a-carpet/)
 
 
+## minimums of subarrays: monotonic stack
+[M+][907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
+
+
+## 
