@@ -61,4 +61,13 @@ Explanation: first we order the array by left boundary, then we find out the loc
 [M+][907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)
 
 
-## 
+## Longest increasing subsequence: dp, binary search
+Explanation: we build a dp where dp[i] records the smallest end number of subsequnces of length i + 1, and use binary search to reduce the time complexity. for each number in an array, we always want to find that *dp[i-1] < num <= dp[i]*, so we can update the dp[i] with *num*, or increase the len of dp when num > dp[len].
+
+[M][300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+[H-][354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
+
+
+## 扫描线/差分数组
+Explanation: when we only care the merge of the intervals.
+[E][1893. Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/submissions/)
