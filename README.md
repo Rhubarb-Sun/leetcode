@@ -72,3 +72,7 @@ Explanation: we build a dp where dp[i] records the smallest end number of subseq
 Explanation: when we only care the merge of the intervals.
 
 [E][1893. Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/submissions/)
+
+## BFS
+
+[H-][2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)
