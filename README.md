@@ -65,6 +65,7 @@ Explanation: first we order the array by left boundary, then we find out the loc
 Explanation: we build a dp where dp[i] records the smallest end number of subsequnces of length i + 1, and use binary search to reduce the time complexity. for each number in an array, we always want to find that *dp[i-1] < num <= dp[i]*, so we can update the dp[i] with *num*, or increase the len of dp when num > dp[len].
 
 [M][300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
 [H-][354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 
 
@@ -76,3 +77,11 @@ Explanation: when we only care the merge of the intervals.
 ## BFS
 
 [H-][2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)
+
+## Greedy Algorithm
+
+[M][665. Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)
+
+[H][630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
+
+
