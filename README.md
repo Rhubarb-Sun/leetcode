@@ -13,6 +13,8 @@ transfer equation: `dp[i] = func(dp[i - 1] & arr[i], arr[i])`
 [Medium][474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)
 (When two factors influence each other, we could think of a 2D array for DP, so that each factor corresponds to every possible situations of the other factor.)
 
+[H-][2321. Maximum Score Of Spliced Array](https://leetcode.com/problems/maximum-score-of-spliced-array/)
+
 ## Deepest of a tree: tree, layer order, queue
 Explanation: use **layer order with a queue** to reach the deepest layer of a tree.
 
