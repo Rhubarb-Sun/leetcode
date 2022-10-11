@@ -70,6 +70,8 @@ Explanation: we build a dp where dp[i] records the smallest end number of subseq
 
 [H-][354. Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)
 
+[M][334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
+
 
 ## 扫描线/差分数组
 Explanation: when we only care the merge of the intervals.
