@@ -97,3 +97,8 @@ Explanation: when we only care the merge of the intervals.
 ## TreeMap (utilize the order of a map)
 
 [H][732. My Calendar III](https://leetcode.com/problems/my-calendar-iii/)
+
+
+## Topological sort (a graph, from outside to inside. build the neighbors of each node, and find out the degree of each node)
+
+[H][2440. Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/)
