@@ -10,6 +10,13 @@ degree n, target.
 
 [Article: n-sum problem](https://mp.weixin.qq.com/s/fSyJVvggxHq28a0SdmZm6Q)
 
+## random algorithm time complexity: O(1)
+we need to take advantage of the compact array to fulfill the random algorithm within the O(1) time complexity.
+
+[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+
+
+
 ## Maximum Subarray: array, dynamic processing
 Explanation: When it comes to the processing of subarray in a array, we can use the idea of dp to **divide the problem to subproblems which focus on the result ending at index i**
 
