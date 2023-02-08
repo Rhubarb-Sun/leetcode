@@ -1,6 +1,15 @@
 # leetcode
 Intro: archive the problems
 
+## N-Sum problem
+iteratively decrease the degree of the problem, say, from n-sum to (n-1) sum problem. And we have a basic solution for 2-sum problem, so we can easily implement an overall function with the parameters as follows:
+
+degree n, target.
+
+[18. 4sum](https://leetcode.com/problems/4sum/submissions/)
+
+[Article: n-sum problem](https://mp.weixin.qq.com/s/fSyJVvggxHq28a0SdmZm6Q)
+
 ## Maximum Subarray: array, dynamic processing
 Explanation: When it comes to the processing of subarray in a array, we can use the idea of dp to **divide the problem to subproblems which focus on the result ending at index i**
 
